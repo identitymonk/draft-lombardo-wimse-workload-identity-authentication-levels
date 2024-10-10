@@ -19,8 +19,7 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "draft-hurst-workloadidentityauthenticationlevels"
-abbrev: "draft-hurst-workloadidentityauthlevels"
+title: "draft-hurst-workloadidentityauthlevels"
 category: info
 
 docname: draft-hurst-workloadidentityauthlevels
