@@ -1134,6 +1134,31 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
                 <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-level-0-no-authentication" class="internal xref">Level 0: No Authentication</a></p>
 </li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2">
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-level-1-deploy-time-shared-" class="internal xref">Level 1: Deploy Time Shared-Secret Based Authentication</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.3">
+                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="auto internal xref">3.3</a>.  <a href="#name-level-2-deploy-time-credent" class="internal xref">Level 2: Deploy-Time Credential Based Authentication</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.4">
+                <p id="section-toc.1-1.3.2.4.1"><a href="#section-3.4" class="auto internal xref">3.4</a>.  <a href="#name-level-3-automated-authentic" class="internal xref">Level 3: Automated Authentication with Static Credentials</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.4.2.1">
+                    <p id="section-toc.1-1.3.2.4.2.1.1"><a href="#section-3.4.1" class="auto internal xref">3.4.1</a>.  <a href="#name-characteristics" class="internal xref">Characteristics:</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.5">
+                <p id="section-toc.1-1.3.2.5.1"><a href="#section-3.5" class="auto internal xref">3.5</a>.  <a href="#name-level-4-dynamic-authenticat" class="internal xref">Level 4: Dynamic Authentication with Renewable Credentials</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.5.2.1">
+                    <p id="section-toc.1-1.3.2.5.2.1.1"><a href="#section-3.5.1" class="auto internal xref">3.5.1</a>.  <a href="#name-characteristics-2" class="internal xref">Characteristics:</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.6">
+                <p id="section-toc.1-1.3.2.6.1"><a href="#section-3.6" class="auto internal xref">3.6</a>.  <a href="#name-level-5-zero-trust-principl" class="internal xref">Level 5: Zero-Trust Principles with Context-Aware Authentication</a></p>
+</li>
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
@@ -1184,65 +1209,144 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
         <h3 id="name-level-0-no-authentication">
 <a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-level-0-no-authentication" class="section-name selfRef">Level 0: No Authentication</a>
         </h3>
-<p id="section-3.1-1">Description: No authentication mechanisms are in place.
-Characteristics:
-Machines and workloads operate without any form of authentication.
-No assurance of identity or integrity of dependent services.
-Highly vulnerable to unauthorized access and attacks.
-Examples: No access control or reliance on IP addresses combined allow lists and block lists for access control.
-## Level 1: Deploy Time Shared-Secret Based Authentication
-Description: Manual deploy time of simple passwords, shared secrets and API keys without lifecycle management
-Characteristics:
-Use of simple shared secrets (e.g., passwords, API keys) deployed manually or at deploy time.
-No unique identification of workloads
-Minimal automation in credential distribution typically without regular credential rotation.
-Lack of instrumentation on credential lifecycle and governance reporting.
-Highly vulnerable to key compromise and lateral movement of attackers.
-Examples: Deploy-time shared secrets.
-### Level 2: Deploy-Time Credential Based Authentication
-Description: Static asymmetric key-based authentication and symmetric credential management systems that are deployed during setup.
-Characteristics:
-Use of static credentials (e.g., long-lived certificates).
-Minimal automation in credential distribution.
-Basic security policies and procedures in place.
-No reliable credential lifecycle management
-Often no governing authority for credential issuance, leading to issues such as password sprawl and difficulty in governance.
-Examples: Kerberos key tabs, long-lived tokens.
-## Level 3: Automated Authentication with Static Credentials
-Description: Automated authentication using static credentials and improved logging.
-Characteristics:
-Use of static credentials (e.g., long-lived certificates, tokens).
-Improved logging and monitoring capabilities.
-Automated processes for credential distribution.
-Basic security policies and procedures in place.
-Access controls tied to the credential rather than the subject of the credential due to the lack of an issuer/governing authority.
-Examples: Automated API key distribution, long-lived certificates managed through automation tools.
-## Level 4: Dynamic Authentication with Renewable Credentials
-Description: Dynamic authentication using renewable credentials with moderate automation.
-Characteristics:
-Use of renewable credentials (e.g., short-lived certificates, tokens).
-Automated credential issuance and renewal processes.
-Enhanced logging and monitoring with anomaly detection.
-Regular auditing and compliance checks.
-Examples: Short-lived tokens issued and renewed automatically, dynamic certificates.
-## Level 5: Zero-Trust Principles with Context-Aware Authentication
-Description: Implementation of zero-trust principles with context-aware authentication.
-Characteristics:
-Use of context-aware, short-lived credentials (e.g., ephemeral certificates, workload identities).
-Continuous authentication and authorization checks based on context (e.g., behavior, location).
-Advanced logging, monitoring, and real-time threat detection.
-Integration with identity management and access control systems.
-Examples: Ephemeral certificates, workload identities validated against behavioral baselines.
+<p id="section-3.1-1">### Description:
+- No authentication mechanisms are in place.
+### Characteristics:
+- Machines and workloads operate without any form of authentication.
+- No assurance of identity or integrity of dependent services.
+- Highly vulnerable to unauthorized access and attacks.
+### Examples:
+No access control or reliance on IP addresses combined allow lists and block lists for access control.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="level-1-deploy-time-shared-secret-based-authentication">
+<section id="section-3.2">
+        <h3 id="name-level-1-deploy-time-shared-">
+<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-level-1-deploy-time-shared-" class="section-name selfRef">Level 1: Deploy Time Shared-Secret Based Authentication</a>
+        </h3>
+<p id="section-3.2-1">### Description:
+Manual deploy time of simple passwords, shared secrets and API keys without lifecycle management
+### Characteristics:
+- Use of simple shared secrets (e.g., passwords, API keys) deployed manually or at deploy time.
+- No unique identification of workloads
+- Minimal automation in credential distribution typically without regular credential rotation.
+- Lack of instrumentation on credential lifecycle and governance reporting.
+- Highly vulnerable to key compromise and lateral movement of attackers.
+### Examples:
+Deploy-time shared secrets.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="level-2-deploy-time-credential-based-authentication">
+<section id="section-3.3">
+        <h3 id="name-level-2-deploy-time-credent">
+<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-level-2-deploy-time-credent" class="section-name selfRef">Level 2: Deploy-Time Credential Based Authentication</a>
+        </h3>
+<p id="section-3.3-1">### Description:
+Static asymmetric key-based authentication and symmetric credential management systems that are deployed during setup.
+### Characteristics:
+- Use of static credentials (e.g., long-lived certificates).
+- Minimal automation in credential distribution.
+- Basic security policies and procedures in place.
+- No reliable credential lifecycle management
+- Often no governing authority for credential issuance, leading to issues such as password sprawl and difficulty in governance.
+### Examples:
+Kerberos key tabs, long-lived tokens.<a href="#section-3.3-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="level-3-automated-authentication-with-static-credentials">
+<section id="section-3.4">
+        <h3 id="name-level-3-automated-authentic">
+<a href="#section-3.4" class="section-number selfRef">3.4. </a><a href="#name-level-3-automated-authentic" class="section-name selfRef">Level 3: Automated Authentication with Static Credentials</a>
+        </h3>
+<p id="section-3.4-1">### Description:
+Automated authentication using static credentials and improved logging.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
+<div id="characteristics">
+<section id="section-3.4.1">
+          <h4 id="name-characteristics">
+<a href="#section-3.4.1" class="section-number selfRef">3.4.1. </a><a href="#name-characteristics" class="section-name selfRef">Characteristics:</a>
+          </h4>
+<ul class="normal">
+<li class="normal" id="section-3.4.1-1.1">
+              <p id="section-3.4.1-1.1.1">Use of static credentials (e.g., long-lived certificates, tokens).<a href="#section-3.4.1-1.1.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.4.1-1.2">
+              <p id="section-3.4.1-1.2.1">Improved logging and monitoring capabilities.<a href="#section-3.4.1-1.2.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.4.1-1.3">
+              <p id="section-3.4.1-1.3.1">Automated processes for credential distribution.<a href="#section-3.4.1-1.3.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.4.1-1.4">
+              <p id="section-3.4.1-1.4.1">Basic security policies and procedures in place.<a href="#section-3.4.1-1.4.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.4.1-1.5">
+              <p id="section-3.4.1-1.5.1">Access controls tied to the credential rather than the subject of the credential due to the lack of an issuer/governing authority.
+### Examples:
+Automated API key distribution, long-lived certificates managed through automation tools.<a href="#section-3.4.1-1.5.1" class="pilcrow">¶</a></p>
+</li>
+          </ul>
+</section>
+</div>
+</section>
+</div>
+<div id="level-4-dynamic-authentication-with-renewable-credentials">
+<section id="section-3.5">
+        <h3 id="name-level-4-dynamic-authenticat">
+<a href="#section-3.5" class="section-number selfRef">3.5. </a><a href="#name-level-4-dynamic-authenticat" class="section-name selfRef">Level 4: Dynamic Authentication with Renewable Credentials</a>
+        </h3>
+<p id="section-3.5-1">### Description:
+Dynamic authentication using renewable credentials with moderate automation.<a href="#section-3.5-1" class="pilcrow">¶</a></p>
+<div id="characteristics-1">
+<section id="section-3.5.1">
+          <h4 id="name-characteristics-2">
+<a href="#section-3.5.1" class="section-number selfRef">3.5.1. </a><a href="#name-characteristics-2" class="section-name selfRef">Characteristics:</a>
+          </h4>
+<ul class="normal">
+<li class="normal" id="section-3.5.1-1.1">
+              <p id="section-3.5.1-1.1.1">Use of renewable credentials (e.g., short-lived certificates, tokens).<a href="#section-3.5.1-1.1.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.5.1-1.2">
+              <p id="section-3.5.1-1.2.1">Automated credential issuance and renewal processes.<a href="#section-3.5.1-1.2.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.5.1-1.3">
+              <p id="section-3.5.1-1.3.1">Enhanced logging and monitoring with anomaly detection.<a href="#section-3.5.1-1.3.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.5.1-1.4">
+              <p id="section-3.5.1-1.4.1">Regular auditing and compliance checks.<a href="#section-3.5.1-1.4.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-3.5.1-1.5">
+              <p id="section-3.5.1-1.5.1">Examples: Short-lived tokens issued and renewed automatically, dynamic certificates.<a href="#section-3.5.1-1.5.1" class="pilcrow">¶</a></p>
+</li>
+          </ul>
+</section>
+</div>
+</section>
+</div>
+<div id="level-5-zero-trust-principles-with-context-aware-authentication">
+<section id="section-3.6">
+        <h3 id="name-level-5-zero-trust-principl">
+<a href="#section-3.6" class="section-number selfRef">3.6. </a><a href="#name-level-5-zero-trust-principl" class="section-name selfRef">Level 5: Zero-Trust Principles with Context-Aware Authentication</a>
+        </h3>
+<p id="section-3.6-1">### Description:
+Implementation of zero-trust principles with context-aware authentication.
+### Characteristics:
+- Use of context-aware, short-lived credentials (e.g., ephemeral certificates, workload identities).
+- Continuous authentication and authorization checks based on context (e.g., behavior, location).
+- Advanced logging, monitoring, and real-time threat detection.
+- Integration with identity management and access control systems.
+### Examples:
+Ephemeral certificates, workload identities validated against behavioral baselines.
 ## Level 6: Full Zero-Trust Implementation with End-to-End Security
-Description: Comprehensive zero-trust security with end-to-end protections.
-Characteristics:
-End-to-end encryption and mutual authentication for all communications.
-Full implementation of dynamic, context-aware authentication and authorization.
-Automated security policy enforcement and compliance monitoring.
-Robust threat intelligence integration and proactive threat mitigation.
-Continuous improvement and adaptation to emerging threats and vulnerabilities.
-Examples: Full zero-trust network architecture, real-time threat intelligence integration.
-Naming and Attestation: Ability to identify the combination of machine and workload, with attestation providing assurance of the state of the environment.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+### Description:
+- Comprehensive zero-trust security with end-to-end protections.
+### Characteristics:
+- End-to-end encryption and mutual authentication for all communications.
+- Full implementation of dynamic, context-aware authentication and authorization.
+- Automated security policy enforcement and compliance monitoring.
+- Robust threat intelligence integration and proactive threat mitigation.
+- Continuous improvement and adaptation to emerging threats and vulnerabilities.
+### Examples:
+- Full zero-trust network architecture, real-time threat intelligence integration.
+- Naming and Attestation: Ability to identify the combination of machine and workload, with attestation providing assurance of the state of the environment.<a href="#section-3.6-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
