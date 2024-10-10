@@ -22,7 +22,7 @@
 title: "draft-hurst-workloadidentityauthlevels"
 category: info
 
-docname: draft-hurst-workloadidentityauthlevels
+docname: draft-hurst-workloadidentityauthlevels-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
