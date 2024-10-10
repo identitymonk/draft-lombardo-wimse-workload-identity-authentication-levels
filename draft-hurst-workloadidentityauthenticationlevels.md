@@ -22,7 +22,7 @@
 title: "draft-hurst-workloadidentityauthenticationlevels"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-hurst-workloadidentityauthenticationlevels
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
