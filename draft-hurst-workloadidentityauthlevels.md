@@ -26,7 +26,7 @@ author:
  -
     fullname: Ryan Hurst
     organization: SPIRL
-    email: "90690777+PieterKas@users.noreply.github.com"
+    email: ryan@spirl.com
 
 normative:
 
