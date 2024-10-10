@@ -44,8 +44,8 @@ venue:
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
+    fullname: Ryan Hurst
+    organization: SPIRL
     email: your.email@example.com
 
 normative:
