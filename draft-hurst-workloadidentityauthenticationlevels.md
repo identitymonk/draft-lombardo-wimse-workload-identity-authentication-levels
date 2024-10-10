@@ -20,9 +20,10 @@
 #
 ###
 title: "draft-hurst-workloadidentityauthenticationlevels"
+abbrev: "draft-hurst-workloadidentityauthlevels"
 category: info
 
-docname: draft-hurst-workloadidentityauthenticationlevels
+docname: draft-hurst-workloadidentityauthlevels
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
