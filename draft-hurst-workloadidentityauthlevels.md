@@ -50,13 +50,13 @@ The Authentication Maturity Levels (AML) framework provides a structured approac
 # Workload Identity Authentication Levels
 
 ## Level 0: No Authentication
-### Description: 
+### Description:
 - No authentication mechanisms are in place.
 ### Characteristics:
 - Machines and workloads operate without any form of authentication.
 - No assurance of identity or integrity of dependent services.
 - Highly vulnerable to unauthorized access and attacks.
-### Examples: 
+### Examples:
 No access control or reliance on IP addresses combined allow lists and block lists for access control.
 
 ## Level 1: Deploy Time Shared-Secret Based Authentication
@@ -108,17 +108,17 @@ Dynamic authentication using renewable credentials with moderate automation.
 - Examples: Short-lived tokens issued and renewed automatically, dynamic certificates.
 
 ## Level 5: Zero-Trust Principles with Context-Aware Authentication
-### Description: 
+### Description:
 Implementation of zero-trust principles with context-aware authentication.
 ### Characteristics:
 - Use of context-aware, short-lived credentials (e.g., ephemeral certificates, workload identities).
 - Continuous authentication and authorization checks based on context (e.g., behavior, location).
 - Advanced logging, monitoring, and real-time threat detection.
 - Integration with identity management and access control systems.
-### Examples: 
+### Examples:
 Ephemeral certificates, workload identities validated against behavioral baselines.
 ## Level 6: Full Zero-Trust Implementation with End-to-End Security
-### Description: 
+### Description:
 - Comprehensive zero-trust security with end-to-end protections.
 ### Characteristics:
 - End-to-end encryption and mutual authentication for all communications.
@@ -126,7 +126,7 @@ Ephemeral certificates, workload identities validated against behavioral baselin
 - Automated security policy enforcement and compliance monitoring.
 - Robust threat intelligence integration and proactive threat mitigation.
 - Continuous improvement and adaptation to emerging threats and vulnerabilities.
-### Examples: 
+### Examples:
 - Full zero-trust network architecture, real-time threat intelligence integration.
 - Naming and Attestation: Ability to identify the combination of machine and workload, with attestation providing assurance of the state of the environment.
 
