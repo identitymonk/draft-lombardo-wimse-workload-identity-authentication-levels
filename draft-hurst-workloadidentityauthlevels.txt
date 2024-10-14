@@ -69,14 +69,34 @@ Table of Contents
    3.  Workload Identity Authentication Levels
      3.1.  Level 0: No Authentication
        3.1.1.  Description:
+       3.1.2.  Characteristics:
+       3.1.3.  Examples:
      3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
+       3.2.1.  Description:
+       3.2.2.  Characteristics:
+       3.2.3.  Examples:
      3.3.  Level 2: Deploy-Time Credential Based Authentication
+       3.3.1.  Description:
+       3.3.2.  Characteristics:
+       3.3.3.  Examples:
      3.4.  Level 3: Automated Authentication with Static Credentials
-       3.4.1.  Characteristics:
+       3.4.1.  Description:
+       3.4.2.  Characteristics:
+       3.4.3.  Examples:
      3.5.  Level 4: Dynamic Authentication with Renewable Credentials
-       3.5.1.  Characteristics:
+       3.5.1.  Description:
+       3.5.2.  Characteristics:
+       3.5.3.  Examples:
      3.6.  Level 5: Zero-Trust Principles with Context-Aware
            Authentication
+       3.6.1.  Description:
+       3.6.2.  Characteristics:
+       3.6.3.  Examples:
+     3.7.  Level 6: Full Zero-Trust Implementation with End-to-End
+           Security
+       3.7.1.  Description:
+       3.7.2.  Characteristics:
+       3.7.3.  Examples:
    4.  Security Considerations
    5.  IANA Considerations
    6.  Normative References
@@ -107,46 +127,80 @@ Table of Contents
 
 3.1.1.  Description:
 
-   *  No authentication mechanisms are in place. ### Characteristics:
+   *  No authentication mechanisms are in place.
+
+3.1.2.  Characteristics:
 
    *  Machines and workloads operate without any form of authentication.
 
    *  No assurance of identity or integrity of dependent services.
 
-   *  Highly vulnerable to unauthorized access and attacks. ###
-      Examples: No access control or reliance on IP addresses combined
-      allow lists and block lists for access control.
+   *  Highly vulnerable to unauthorized access and attacks.
+
+3.1.3.  Examples:
+
+   No access control or reliance on IP addresses combined allow lists
+   and block lists for access control.
 
 3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
 
-   ### Description: Manual deploy time of simple passwords, shared
-   secrets and API keys without lifecycle management ###
-   Characteristics: - Use of simple shared secrets (e.g., passwords, API
-   keys) deployed manually or at deploy time. - No unique identification
-   of workloads - Minimal automation in credential distribution
-   typically without regular credential rotation. - Lack of
-   instrumentation on credential lifecycle and governance reporting. -
-   Highly vulnerable to key compromise and lateral movement of
-   attackers. ### Examples: Deploy-time shared secrets.
+3.2.1.  Description:
+
+   Manual deploy time of simple passwords, shared secrets and API keys
+   without lifecycle management
+
+3.2.2.  Characteristics:
+
+   *  Use of simple shared secrets (e.g., passwords, API keys) deployed
+      manually or at deploy time.
+
+   *  No unique identification of workloads
+
+   *  Minimal automation in credential distribution typically without
+      regular credential rotation.
+
+   *  Lack of instrumentation on credential lifecycle and governance
+      reporting.
+
+   *  Highly vulnerable to key compromise and lateral movement of
+      attackers.
+
+3.2.3.  Examples:
+
+   Deploy-time shared secrets.
 
 3.3.  Level 2: Deploy-Time Credential Based Authentication
 
-   ### Description: Static asymmetric key-based authentication and
-   symmetric credential management systems that are deployed during
-   setup. ### Characteristics: - Use of static credentials (e.g., long-
-   lived certificates). - Minimal automation in credential distribution.
-   - Basic security policies and procedures in place. - No reliable
-   credential lifecycle management - Often no governing authority for
-   credential issuance, leading to issues such as password sprawl and
-   difficulty in governance. ### Examples: Kerberos key tabs, long-lived
-   tokens.
+3.3.1.  Description:
+
+   Static asymmetric key-based authentication and symmetric credential
+   management systems that are deployed during setup.
+
+3.3.2.  Characteristics:
+
+   *  Use of static credentials (e.g., long-lived certificates).
+
+   *  Minimal automation in credential distribution.
+
+   *  Basic security policies and procedures in place.
+
+   *  No reliable credential lifecycle management
+
+   *  Often no governing authority for credential issuance, leading to
+      issues such as password sprawl and difficulty in governance.
+
+3.3.3.  Examples:
+
+   Kerberos key tabs, long-lived tokens.
 
 3.4.  Level 3: Automated Authentication with Static Credentials
 
-   ### Description: Automated authentication using static credentials
-   and improved logging.
+3.4.1.  Description:
 
-3.4.1.  Characteristics:
+   Automated authentication using static credentials and improved
+   logging.
+
+3.4.2.  Characteristics:
 
    *  Use of static credentials (e.g., long-lived certificates, tokens).
 
@@ -158,15 +212,20 @@ Table of Contents
 
    *  Access controls tied to the credential rather than the subject of
       the credential due to the lack of an issuer/governing authority.
-      ### Examples: Automated API key distribution, long-lived
-      certificates managed through automation tools.
+
+3.4.3.  Examples:
+
+   Automated API key distribution, long-lived certificates managed
+   through automation tools.
 
 3.5.  Level 4: Dynamic Authentication with Renewable Credentials
 
-   ### Description: Dynamic authentication using renewable credentials
-   with moderate automation.
+3.5.1.  Description:
 
-3.5.1.  Characteristics:
+   Dynamic authentication using renewable credentials with moderate
+   automation.
+
+3.5.2.  Characteristics:
 
    *  Use of renewable credentials (e.g., short-lived certificates,
       tokens).
@@ -177,32 +236,65 @@ Table of Contents
 
    *  Regular auditing and compliance checks.
 
-   *  Examples: Short-lived tokens issued and renewed automatically,
-      dynamic certificates.
+3.5.3.  Examples:
+
+   Short-lived tokens issued and renewed automatically, dynamic
+   certificates.
 
 3.6.  Level 5: Zero-Trust Principles with Context-Aware Authentication
 
-   ### Description: Implementation of zero-trust principles with
-   context-aware authentication. ### Characteristics: - Use of context-
-   aware, short-lived credentials (e.g., ephemeral certificates,
-   workload identities). - Continuous authentication and authorization
-   checks based on context (e.g., behavior, location). - Advanced
-   logging, monitoring, and real-time threat detection. - Integration
-   with identity management and access control systems. ### Examples:
+3.6.1.  Description:
+
+   Implementation of zero-trust principles with context-aware
+   authentication.
+
+3.6.2.  Characteristics:
+
+   *  Use of context-aware, short-lived credentials (e.g., ephemeral
+      certificates, workload identities).
+
+   *  Continuous authentication and authorization checks based on
+      context (e.g., behavior, location).
+
+   *  Advanced logging, monitoring, and real-time threat detection.
+
+   *  Integration with identity management and access control systems.
+
+3.6.3.  Examples:
+
    Ephemeral certificates, workload identities validated against
-   behavioral baselines. ## Level 6: Full Zero-Trust Implementation with
-   End-to-End Security ### Description: - Comprehensive zero-trust
-   security with end-to-end protections. ### Characteristics: - End-to-
-   end encryption and mutual authentication for all communications. -
-   Full implementation of dynamic, context-aware authentication and
-   authorization. - Automated security policy enforcement and compliance
-   monitoring. - Robust threat intelligence integration and proactive
-   threat mitigation. - Continuous improvement and adaptation to
-   emerging threats and vulnerabilities. ### Examples: - Full zero-trust
-   network architecture, real-time threat intelligence integration. -
-   Naming and Attestation: Ability to identify the combination of
-   machine and workload, with attestation providing assurance of the
-   state of the environment.
+   behavioral baselines.
+
+3.7.  Level 6: Full Zero-Trust Implementation with End-to-End Security
+
+3.7.1.  Description:
+
+   *  Comprehensive zero-trust security with end-to-end protections.
+
+3.7.2.  Characteristics:
+
+   *  End-to-end encryption and mutual authentication for all
+      communications.
+
+   *  Full implementation of dynamic, context-aware authentication and
+      authorization.
+
+   *  Automated security policy enforcement and compliance monitoring.
+
+   *  Robust threat intelligence integration and proactive threat
+      mitigation.
+
+   *  Continuous improvement and adaptation to emerging threats and
+      vulnerabilities.
+
+3.7.3.  Examples:
+
+   *  Full zero-trust network architecture, real-time threat
+      intelligence integration.
+
+   *  Naming and Attestation: Ability to identify the combination of
+      machine and workload, with attestation providing assurance of the
+      state of the environment.
 
 4.  Security Considerations
 
