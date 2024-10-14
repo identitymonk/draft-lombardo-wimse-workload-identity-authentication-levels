@@ -35,13 +35,12 @@ informative:
 
 --- abstract
 
-TODO Abstract
-
+This draft introduces the Workload Authentication Maturity Level (WAML) framework that enables organizations to assess their current workload authentication mechanisms and progressively strengthen their security posture.
 
 --- middle
 
 # Introduction
-The Authentication Maturity Levels (AML) framework provides a structured approach for organizations to systematically assess and enhance their authentication mechanisms. By offering standardized criteria and incremental levels of improvement, AML empowers organizations to progressively strengthen their security posture, ensuring that their authentication systems are resilient against evolving threats.
+The Workload Authentication Maturity Levels (WAML) framework provides a structured approach for organizations to systematically assess and enhance their authentication mechanisms. By offering standardized criteria and incremental levels of improvement, WAML allows organizations to progressively strengthen their security posture, ensuring that their authentication systems are resilient against evolving threats.
 
 # Conventions and Definitions
 
