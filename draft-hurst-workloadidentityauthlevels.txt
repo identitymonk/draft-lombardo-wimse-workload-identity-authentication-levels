@@ -68,6 +68,7 @@ Table of Contents
    2.  Conventions and Definitions
    3.  Workload Identity Authentication Levels
      3.1.  Level 0: No Authentication
+       3.1.1.  Description:
      3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
      3.3.  Level 2: Deploy-Time Credential Based Authentication
      3.4.  Level 3: Automated Authentication with Static Credentials
@@ -104,12 +105,17 @@ Table of Contents
 
 3.1.  Level 0: No Authentication
 
-   ### Description: - No authentication mechanisms are in place. ###
-   Characteristics: - Machines and workloads operate without any form of
-   authentication. - No assurance of identity or integrity of dependent
-   services. - Highly vulnerable to unauthorized access and attacks. ###
-   Examples: No access control or reliance on IP addresses combined
-   allow lists and block lists for access control.
+3.1.1.  Description:
+
+   *  No authentication mechanisms are in place. ### Characteristics:
+
+   *  Machines and workloads operate without any form of authentication.
+
+   *  No assurance of identity or integrity of dependent services.
+
+   *  Highly vulnerable to unauthorized access and attacks. ###
+      Examples: No access control or reliance on IP addresses combined
+      allow lists and block lists for access control.
 
 3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
 
