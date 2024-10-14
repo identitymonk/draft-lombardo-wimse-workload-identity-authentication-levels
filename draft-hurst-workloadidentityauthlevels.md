@@ -49,6 +49,7 @@ The Workload Authentication Maturity Levels (WAML) framework provides a structur
 # Workload Identity Authentication Levels
 
 ## Level 0: No Authentication
+
 ### Description:
 - No authentication mechanisms are in place.
 ### Characteristics:
