@@ -59,7 +59,7 @@ The Workload Authentication Maturity Levels (WAML) framework provides a structur
 - Highly vulnerable to unauthorized access and attacks.
 
 ### Examples:
-No access control or reliance on IP addresses combined allow lists and block lists for access control.
+No access control or reliance on IP addresses, combined with allow lists and block lists for access control.
 
 ## Level 1: Deploy Time Shared-Secret Based Authentication
 
@@ -68,7 +68,7 @@ Manual deploy time of simple passwords, shared secrets and API keys without life
 
 ### Characteristics:
 - Use of simple shared secrets (e.g., passwords, API keys) deployed manually or at deploy time.
-- No unique identification of workloads
+- No unique identification of workloads.
 - Minimal automation in credential distribution typically without regular credential rotation.
 - Lack of instrumentation on credential lifecycle and governance reporting.
 - Highly vulnerable to key compromise and lateral movement of attackers.
