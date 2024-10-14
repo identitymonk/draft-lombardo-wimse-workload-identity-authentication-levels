@@ -8,12 +8,12 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
-# workgroup: WG Working Group
+# area: ART
+# workgroup: WIMSE
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - workload identity
+ - authentication
+ - microservices
 venue:
 #  group: WG
 #  type: Working Group
