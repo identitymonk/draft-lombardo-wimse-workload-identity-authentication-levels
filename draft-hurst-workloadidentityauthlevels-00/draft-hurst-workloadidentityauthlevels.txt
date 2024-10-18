@@ -1,0 +1,326 @@
+
+
+
+
+Network Working Group                                           R. Hurst
+Internet-Draft                                                     SPIRL
+Intended status: Informational                           18 October 2024
+Expires: 21 April 2025
+
+
+                 draft-hurst-workloadidentityauthlevels
+             draft-hurst-workloadidentityauthlevels-latest
+
+Abstract
+
+   This draft introduces the Workload Authentication Maturity Level
+   (WAML) framework that enables organizations to assess their current
+   workload authentication mechanisms and progressively strengthen their
+   security posture.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://PieterKas.github.io/WorkloadIdentityAuthenticationLevels/
+   draft-hurst-workloadidentityauthlevels.html.  Status information for
+   this document may be found at https://datatracker.ietf.org/doc/draft-
+   hurst-workloadidentityauthlevels/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/PieterKas/WorkloadIdentityAuthenticationLevels.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 21 April 2025.
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Conventions and Definitions
+   3.  Workload Identity Authentication Levels
+     3.1.  Level 0: No Authentication
+       3.1.1.  Description:
+       3.1.2.  Characteristics:
+       3.1.3.  Examples:
+     3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
+       3.2.1.  Description:
+       3.2.2.  Characteristics:
+       3.2.3.  Examples:
+     3.3.  Level 2: Deploy-Time Credential Based Authentication
+       3.3.1.  Description:
+       3.3.2.  Characteristics:
+       3.3.3.  Examples:
+     3.4.  Level 3: Automated Authentication with Static Credentials
+       3.4.1.  Description:
+       3.4.2.  Characteristics:
+       3.4.3.  Examples:
+     3.5.  Level 4: Dynamic Authentication with Renewable Credentials
+       3.5.1.  Description:
+       3.5.2.  Characteristics:
+       3.5.3.  Examples:
+     3.6.  Level 5: Zero-Trust Principles with Context-Aware
+           Authentication
+       3.6.1.  Description:
+       3.6.2.  Characteristics:
+       3.6.3.  Examples:
+     3.7.  Level 6: Full Zero-Trust Implementation with End-to-End
+           Security
+       3.7.1.  Description:
+       3.7.2.  Characteristics:
+       3.7.3.  Examples:
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  Normative References
+   Acknowledgments
+   Author's Address
+
+1.  Introduction
+
+   The Workload Authentication Maturity Levels (WAML) framework provides
+   a structured approach for organizations to systematically assess and
+   enhance their authentication mechanisms.  By offering standardized
+   criteria and incremental levels of improvement, WAML allows
+   organizations to progressively strengthen their security posture,
+   ensuring that their authentication systems are resilient against
+   evolving threats.
+
+2.  Conventions and Definitions
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+   "OPTIONAL" in this document are to be interpreted as described in
+   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+   capitals, as shown here.
+
+3.  Workload Identity Authentication Levels
+
+3.1.  Level 0: No Authentication
+
+3.1.1.  Description:
+
+   *  No authentication mechanisms are in place.
+
+3.1.2.  Characteristics:
+
+   *  Machines and workloads operate without any form of authentication.
+
+   *  No assurance of identity or integrity of dependent services.
+
+   *  Highly vulnerable to unauthorized access and attacks.
+
+3.1.3.  Examples:
+
+   No access control or reliance on IP addresses, combined with allow
+   lists and block lists for access control.
+
+3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
+
+3.2.1.  Description:
+
+   Manual deploy time of simple passwords, shared secrets and API keys
+   without lifecycle management
+
+3.2.2.  Characteristics:
+
+   *  Use of simple shared secrets (e.g., passwords, API keys) deployed
+      manually or at deploy time.
+
+   *  No unique identification of workloads.
+
+   *  Minimal automation in credential distribution typically without
+      regular credential rotation.
+
+   *  Lack of instrumentation on credential lifecycle and governance
+      reporting.
+
+   *  Highly vulnerable to key compromise and lateral movement of
+      attackers.
+
+3.2.3.  Examples:
+
+   Deploy-time shared secrets.
+
+3.3.  Level 2: Deploy-Time Credential Based Authentication
+
+3.3.1.  Description:
+
+   Static asymmetric key-based authentication and symmetric credential
+   management systems that are deployed during setup.
+
+3.3.2.  Characteristics:
+
+   *  Use of static credentials (e.g., long-lived certificates).
+
+   *  Minimal automation in credential distribution.
+
+   *  Basic security policies and procedures in place.
+
+   *  No reliable credential lifecycle management
+
+   *  Often no governing authority for credential issuance, leading to
+      issues such as password sprawl and difficulty in governance.
+
+3.3.3.  Examples:
+
+   Kerberos key tabs, long-lived tokens.
+
+3.4.  Level 3: Automated Authentication with Static Credentials
+
+3.4.1.  Description:
+
+   Automated authentication using static credentials and improved
+   logging.
+
+3.4.2.  Characteristics:
+
+   *  Use of static credentials (e.g., long-lived certificates, tokens).
+
+   *  Improved logging and monitoring capabilities.
+
+   *  Automated processes for credential distribution.
+
+   *  Basic security policies and procedures in place.
+
+   *  Access controls tied to the credential rather than the subject of
+      the credential due to the lack of an issuer/governing authority.
+
+3.4.3.  Examples:
+
+   Automated API key distribution, long-lived certificates managed
+   through automation tools.
+
+3.5.  Level 4: Dynamic Authentication with Renewable Credentials
+
+3.5.1.  Description:
+
+   Dynamic authentication using renewable credentials with moderate
+   automation.
+
+3.5.2.  Characteristics:
+
+   *  Use of renewable credentials (e.g., short-lived certificates,
+      tokens).
+
+   *  Automated credential issuance and renewal processes.
+
+   *  Enhanced logging and monitoring with anomaly detection.
+
+   *  Regular auditing and compliance checks.
+
+3.5.3.  Examples:
+
+   Short-lived tokens issued and renewed automatically, dynamic
+   certificates.
+
+3.6.  Level 5: Zero-Trust Principles with Context-Aware Authentication
+
+3.6.1.  Description:
+
+   Implementation of zero-trust principles with context-aware
+   authentication.
+
+3.6.2.  Characteristics:
+
+   *  Use of context-aware, short-lived credentials (e.g., ephemeral
+      certificates, workload identities).
+
+   *  Continuous authentication and authorization checks based on
+      context (e.g., behavior, location).
+
+   *  Advanced logging, monitoring, and real-time threat detection.
+
+   *  Integration with identity management and access control systems.
+
+3.6.3.  Examples:
+
+   Ephemeral certificates, workload identities validated against
+   behavioral baselines.
+
+3.7.  Level 6: Full Zero-Trust Implementation with End-to-End Security
+
+3.7.1.  Description:
+
+   *  Comprehensive zero-trust security with end-to-end protections.
+
+3.7.2.  Characteristics:
+
+   *  End-to-end encryption and mutual authentication for all
+      communications.
+
+   *  Full implementation of dynamic, context-aware authentication and
+      authorization.
+
+   *  Automated security policy enforcement and compliance monitoring.
+
+   *  Robust threat intelligence integration and proactive threat
+      mitigation.
+
+   *  Continuous improvement and adaptation to emerging threats and
+      vulnerabilities.
+
+3.7.3.  Examples:
+
+   *  Full zero-trust network architecture, real-time threat
+      intelligence integration.
+
+   *  Naming and Attestation: Ability to identify the combination of
+      machine and workload, with attestation providing assurance of the
+      state of the environment.
+
+4.  Security Considerations
+
+   TODO Security
+
+5.  IANA Considerations
+
+   This document has no IANA actions.
+
+6.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+Acknowledgments
+
+   TODO acknowledge.
+
+Author's Address
+
+   Ryan Hurst
+   SPIRL
+   Email: ryan@spirl.com
