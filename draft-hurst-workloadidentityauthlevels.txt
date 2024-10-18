@@ -4,8 +4,8 @@
 
 Network Working Group                                           R. Hurst
 Internet-Draft                                                     SPIRL
-Intended status: Informational                           14 October 2024
-Expires: 17 April 2025
+Intended status: Informational                           18 October 2024
+Expires: 21 April 2025
 
 
                  draft-hurst-workloadidentityauthlevels
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 April 2025.
+   This Internet-Draft will expire on 21 April 2025.
 
 Copyright Notice
 
@@ -139,8 +139,8 @@ Table of Contents
 
 3.1.3.  Examples:
 
-   No access control or reliance on IP addresses combined allow lists
-   and block lists for access control.
+   No access control or reliance on IP addresses, combined with allow
+   lists and block lists for access control.
 
 3.2.  Level 1: Deploy Time Shared-Secret Based Authentication
 
@@ -154,7 +154,7 @@ Table of Contents
    *  Use of simple shared secrets (e.g., passwords, API keys) deployed
       manually or at deploy time.
 
-   *  No unique identification of workloads
+   *  No unique identification of workloads.
 
    *  Minimal automation in credential distribution typically without
       regular credential rotation.
