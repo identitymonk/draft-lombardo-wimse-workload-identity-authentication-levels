@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-17T01:09:23.191167+00:00",
+  "timestamp": "2024-10-20T01:15:10.365223+00:00",
   "repo": "PieterKas/WorkloadIdentityAuthenticationLevels",
   "labels": [
     {
@@ -140,24 +140,26 @@
       "id": "PR_kwDOM9zR_85-jWVf",
       "title": "Editorial updates",
       "url": "https://github.com/PieterKas/WorkloadIdentityAuthenticationLevels/pull/4",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "PieterKas",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Editorial updates",
       "createdAt": "2024-10-14T14:19:58Z",
-      "updatedAt": "2024-10-14T14:19:58Z",
+      "updatedAt": "2024-10-18T12:40:43Z",
       "baseRepository": "PieterKas/WorkloadIdentityAuthenticationLevels",
       "baseRefName": "main",
       "baseRefOid": "8659cdeebf06442a978316f418569344558c1067",
       "headRepository": "PieterKas/WorkloadIdentityAuthenticationLevels",
       "headRefName": "PieterKas-patch-3",
       "headRefOid": "799d2329b8ecd4cf4209e85f6234c63bd58551aa",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-10-18T12:40:43Z",
+      "mergedAt": "2024-10-18T12:40:43Z",
+      "mergedBy": "PieterKas",
+      "mergeCommit": {
+        "oid": "fd5b998a856f9a087de524914769f041a7136229"
+      },
       "comments": [],
       "reviews": []
     }
