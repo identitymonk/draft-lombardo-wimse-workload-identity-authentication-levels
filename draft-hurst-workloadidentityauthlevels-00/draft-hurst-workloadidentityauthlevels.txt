@@ -4,8 +4,8 @@
 
 Network Working Group                                           R. Hurst
 Internet-Draft                                                     SPIRL
-Intended status: Informational                           18 October 2024
-Expires: 21 April 2025
+Intended status: Informational                           21 October 2024
+Expires: 24 April 2025
 
 
                  draft-hurst-workloadidentityauthlevels
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 April 2025.
+   This Internet-Draft will expire on 24 April 2025.
 
 Copyright Notice
 
