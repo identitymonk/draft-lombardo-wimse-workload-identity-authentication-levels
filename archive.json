@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-22T01:10:16.709661+00:00",
+  "timestamp": "2024-10-24T01:09:28.697445+00:00",
   "repo": "rmhrisk/WorkloadIdentityAuthenticationLevels",
   "labels": [
     {
@@ -49,7 +49,56 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 5,
+      "id": "I_kwDOM9zR_86bfyVY",
+      "title": "Fix Contributing",
+      "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/issues/5",
+      "state": "OPEN",
+      "author": "identitymonk",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Link is dead",
+      "createdAt": "2024-10-23T14:21:56Z",
+      "updatedAt": "2024-10-23T14:21:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOM9zR_86bgKy1",
+      "title": "Reworking abstract along NIST SP 800-63 and BCP taxonomy",
+      "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/issues/7",
+      "state": "OPEN",
+      "author": "identitymonk",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I propose the following changes for the abstract to match more closely the objectives:\r\n1. to provide guidance, and even more best current practices\r\n2. to reach higher maturity by providing exact requirements for the assurance level targeted\r\n\r\n```\r\nThis draft describes best current security practice for workload authentication and introduces the Workload Authentication Assurance Level (WAAL) framework that enables organizations to assess their current workload authentication mechanisms, implement the Best Current Practices (BCP) and progressively strengthen their security posture.\r\n```",
+      "createdAt": "2024-10-23T14:51:13Z",
+      "updatedAt": "2024-10-23T14:51:13Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOM9zR_86bkItV",
+      "title": "Reworking sections",
+      "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/issues/8",
+      "state": "OPEN",
+      "author": "identitymonk",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I propose to have sections more aligned with NIST SP 800-63:\r\n\r\n- BCP\r\n  - Definition of considered authenticators: Definition, characteristics, requirements for enrollment, management,and usage\r\n  - Definition of supporting component for authentication: Definition, characteristics, requirements for enrollment, management,and usage\r\n- Maturity Model: Definition, eligible authenticator, eligible supporting components\r\n  - We should limit at 4, 3 is even better to match other xAL\r\n- Security section about threats and mitigations",
+      "createdAt": "2024-10-23T22:09:53Z",
+      "updatedAt": "2024-10-23T22:09:53Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
@@ -160,6 +209,32 @@
       "mergeCommit": {
         "oid": "fd5b998a856f9a087de524914769f041a7136229"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOM9zR_85_oHMB",
+      "title": "Update Authors",
+      "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/pull/6",
+      "state": "OPEN",
+      "author": "identitymonk",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add myself as Author",
+      "createdAt": "2024-10-23T14:25:46Z",
+      "updatedAt": "2024-10-23T14:25:47Z",
+      "baseRepository": "rmhrisk/WorkloadIdentityAuthenticationLevels",
+      "baseRefName": "main",
+      "baseRefOid": "fd5b998a856f9a087de524914769f041a7136229",
+      "headRepository": "rmhrisk/WorkloadIdentityAuthenticationLevels",
+      "headRefName": "JeffL-Author",
+      "headRefOid": "1d612ae451adc0d8633b23d69f592ce7fc957e87",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
