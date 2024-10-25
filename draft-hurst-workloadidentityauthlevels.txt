@@ -4,8 +4,9 @@
 
 Network Working Group                                           R. Hurst
 Internet-Draft                                                     SPIRL
-Intended status: Informational                           18 October 2024
-Expires: 21 April 2025
+Intended status: Informational                            J. '. Lombardo
+Expires: 28 April 2025                                               AWS
+                                                         25 October 2024
 
 
                  draft-hurst-workloadidentityauthlevels
@@ -46,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 April 2025.
+   This Internet-Draft will expire on 28 April 2025.
 
 Copyright Notice
 
@@ -101,7 +102,7 @@ Table of Contents
    5.  IANA Considerations
    6.  Normative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -319,8 +320,13 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
    Ryan Hurst
    SPIRL
    Email: ryan@spirl.com
+
+
+   Jean-François 'Jeff' Lombardo
+   AWS
+   Email: jeffsec@amazon.com
