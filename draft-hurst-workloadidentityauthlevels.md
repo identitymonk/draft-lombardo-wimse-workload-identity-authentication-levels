@@ -27,6 +27,10 @@ author:
     fullname: Ryan Hurst
     organization: SPIRL
     email: ryan@spirl.com
+ -
+    fullname: Jean-François 'Jeff' Lombardo
+    organization: AWS
+    email: jeffsec@amazon.com
 
 normative:
 
