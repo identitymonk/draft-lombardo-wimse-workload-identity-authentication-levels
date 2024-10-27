@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-24T01:09:28.697445+00:00",
+  "timestamp": "2024-10-27T01:14:36.685565+00:00",
   "repo": "rmhrisk/WorkloadIdentityAuthenticationLevels",
   "labels": [
     {
@@ -217,24 +217,26 @@
       "id": "PR_kwDOM9zR_85_oHMB",
       "title": "Update Authors",
       "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/pull/6",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "identitymonk",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Add myself as Author",
       "createdAt": "2024-10-23T14:25:46Z",
-      "updatedAt": "2024-10-23T14:25:47Z",
+      "updatedAt": "2024-10-25T23:15:24Z",
       "baseRepository": "rmhrisk/WorkloadIdentityAuthenticationLevels",
       "baseRefName": "main",
       "baseRefOid": "fd5b998a856f9a087de524914769f041a7136229",
       "headRepository": "rmhrisk/WorkloadIdentityAuthenticationLevels",
       "headRefName": "JeffL-Author",
       "headRefOid": "1d612ae451adc0d8633b23d69f592ce7fc957e87",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-10-25T23:15:24Z",
+      "mergedAt": "2024-10-25T23:15:24Z",
+      "mergedBy": "rmhrisk",
+      "mergeCommit": {
+        "oid": "e9f5416f3cdce6cdd5d7ac0c28c7b87526307ec0"
+      },
       "comments": [],
       "reviews": []
     }
