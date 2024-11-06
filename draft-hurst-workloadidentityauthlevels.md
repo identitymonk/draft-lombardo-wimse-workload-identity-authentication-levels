@@ -5,7 +5,7 @@ category: info
 docname: draft-hurst-workloadidentityauthlevels-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
-date:
+date: 2024-11-05 
 consensus: true
 v: 3
 # area: ART
