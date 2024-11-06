@@ -5,8 +5,8 @@
 Network Working Group                                           R. Hurst
 Internet-Draft                                                     SPIRL
 Intended status: Informational                            J. '. Lombardo
-Expires: 28 April 2025                                               AWS
-                                                         25 October 2024
+Expires: 10 May 2025                                                 AWS
+                                                         6 November 2024
 
 
                  draft-hurst-workloadidentityauthlevels
@@ -24,13 +24,13 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://PieterKas.github.io/WorkloadIdentityAuthenticationLevels/
-   draft-hurst-workloadidentityauthlevels.html.  Status information for
-   this document may be found at https://datatracker.ietf.org/doc/draft-
+   https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/draft-
+   hurst-workloadidentityauthlevels.html.  Status information for this
+   document may be found at https://datatracker.ietf.org/doc/draft-
    hurst-workloadidentityauthlevels/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/PieterKas/WorkloadIdentityAuthenticationLevels.
+   https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels.
 
 Status of This Memo
 
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 April 2025.
+   This Internet-Draft will expire on 10 May 2025.
 
 Copyright Notice
 
