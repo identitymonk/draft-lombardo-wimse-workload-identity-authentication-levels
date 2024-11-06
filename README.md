@@ -2,16 +2,16 @@
 
 This is the working area for the individual Internet-Draft, "draft-hurst-workloadidentityauthlevels".
 
-* [Editor's Copy](https://PieterKas.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.html)
+* [Editor's Copy](https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-hurst-workloadidentityauthlevels)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-hurst-workloadidentityauthlevels)
-* [Compare Editor's Copy to Individual Draft](https://PieterKas.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.diff)
+* [Compare Editor's Copy to Individual Draft](https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/PieterKas/WorkloadIdentityAuthenticationLevels/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
