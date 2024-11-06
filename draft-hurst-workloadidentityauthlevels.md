@@ -19,8 +19,8 @@ venue:
 #  type: Working Group
 #  mail: WG@example.com
 #  arch: https://example.com/WG
-  github: "PieterKas/WorkloadIdentityAuthenticationLevels"
-  latest: "https://PieterKas.github.io/WorkloadIdentityAuthenticationLevels/draft-hurst-workloadidentityauthlevels.html"
+  github: "rmhrisk/WorkloadIdentityAuthenticationLevels"
+  latest: "https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/draft-hurst-workloadidentityauthlevels.html"
 
 author:
  -
