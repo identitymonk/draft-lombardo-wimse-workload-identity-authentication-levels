@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-11-05T01:08:14.308514+00:00",
+  "timestamp": "2024-11-07T01:08:36.113157+00:00",
   "repo": "rmhrisk/WorkloadIdentityAuthenticationLevels",
   "labels": [
     {
@@ -55,16 +55,24 @@
       "id": "I_kwDOM9zR_86bfyVY",
       "title": "Fix Contributing",
       "url": "https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/issues/5",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "identitymonk",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Link is dead",
       "createdAt": "2024-10-23T14:21:56Z",
-      "updatedAt": "2024-10-23T14:21:56Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2024-11-06T01:29:17Z",
+      "closedAt": "2024-11-06T01:29:17Z",
+      "comments": [
+        {
+          "author": "rmhrisk",
+          "authorAssociation": "OWNER",
+          "body": "Fixed",
+          "createdAt": "2024-11-06T01:29:14Z",
+          "updatedAt": "2024-11-06T01:29:14Z"
+        }
+      ]
     },
     {
       "number": 7,
