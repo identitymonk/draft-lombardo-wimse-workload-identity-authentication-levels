@@ -112,12 +112,39 @@ MIAL defines the degree of confidence in the claimed identity of a machine or wo
 
 ## Machine Authentication Assurance Levels (MAAL)
 
-MAAL defines the authentication strength required for machine-to-machine communication. This includes:
-- Credential strength
-- Authentication mechanisms
-- Protocol security
-- Session management
-- Continuous verification
+MAAL defines the strength of an authentication nechanism used by workload to authenticate. This includes:
+
+### Credential provider provenance
+
+This represents the level of trust in the authenticator.
+
+### Credential enrollment
+
+This represents the requirements for the credential to exist.
+
+### Credential containment
+
+This represents the constraints on how and where the credential can be stored.
+
+### Credential unlocking
+
+This represents how the credential can be accessed for authentication purposes.
+
+### Credential boundary
+
+This represents the constraints on where the credential can be used.
+
+### Credential reuse
+
+This represents if and how one credential exist for more than one resource.
+
+### Credential recovery
+
+This represents the constraints on how the credential can be recoevered if somthing goes wrong.
+
+### Credential governance
+
+This represents the rules that govern the credential lifecycle.
 
 ### Level MAAL-0
 
@@ -138,6 +165,6 @@ This document has no IANA actions.
 {:numbered="false"}
 
 
-The authors wants to acknowledge the support and work of the following indivisuals: Ryan Hurst (Peculiar Ventures)
+The authors wants to acknowledge the support and work of the following indivisuals: Ryan Hurst (Peculiar Ventures), Pamela Dingle (Microsoft).
 
 The authors wants also to recognize the trail blazers and thought leaders that created the ecosystem without which this draft proposal would not be able to solve customer pain points and secure usage of digital services, especially without being limited to: Vittorio Bertocci†, Brian Campbell (Ping Identity), Justin Richer (MongoDB), Aaron Parecki (Okta), Pieter Kasselman (SPRL), Dr Mike Jones (Self-Issued Consulting, LLC), Dr Daniel Fett (Authlete).
