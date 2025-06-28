@@ -1,17 +1,17 @@
-# draft-hurst-workloadidentityauthlevels
+# draft-lombardo-wimse-workload-identity-authentication-levels
 
 This is the working area for the individual Internet-Draft, "draft-hurst-workloadidentityauthlevels".
 
-* [Editor's Copy](https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-hurst-workloadidentityauthlevels)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-hurst-workloadidentityauthlevels)
-* [Compare Editor's Copy to Individual Draft](https://rmhrisk.github.io/WorkloadIdentityAuthenticationLevels/#go.draft-hurst-workloadidentityauthlevels.diff)
+* [Editor's Copy](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/#go.draft-lombardo-wimse-workload-identity-authentication-levels.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-lombardo-wimse-workload-identity-authentication-levels)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-lombardo-wimse-workload-identity-authentication-levels)
+* [Compare Editor's Copy to Individual Draft](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/#go.draft-lombardo-wimse-workload-identity-authentication-levels.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/rmhrisk/WorkloadIdentityAuthenticationLevels/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/identitymonk/draft-lombardo-wimse-workload-identity-authentication-levels/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
