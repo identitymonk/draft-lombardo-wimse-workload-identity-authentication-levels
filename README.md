@@ -1,6 +1,6 @@
 # draft-lombardo-wimse-workload-identity-authentication-levels
 
-This is the working area for the individual Internet-Draft, "draft-hurst-workloadidentityauthlevels".
+This is the working area for the individual Internet-Draft, "draft-lombardo-wimse-workload-identity-authentication-levels".
 
 * [Editor's Copy](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/#go.draft-lombardo-wimse-workload-identity-authentication-levels.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-lombardo-wimse-workload-identity-authentication-levels)
