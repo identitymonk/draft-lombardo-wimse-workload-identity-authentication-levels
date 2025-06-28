@@ -6,8 +6,8 @@ WIMSE                                                        J. Lombardo
 Internet-Draft                                                       AWS
 Intended status: Informational                                   M. Levy
 Expires: 30 December 2025                                           SPRL
-                                                                 D. Saxe
-                                                                    self
+                                                              D. H. Saxe
+                                         Full Frontal Nerdity Industries
                                                             28 June 2025
 
 
@@ -260,6 +260,6 @@ Authors' Addresses
    Email: marcel@sprl.com
 
 
-   Dean Saxe
-   self
+   Dean H. Saxe
+   Full Frontal Nerdity Industries
    Email: dean@thesax.es
