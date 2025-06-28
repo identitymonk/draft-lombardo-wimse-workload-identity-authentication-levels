@@ -33,8 +33,8 @@ author:
    organization: SPRL
    email: marcel@sprl.com
  -
-   fullname: Dean Saxe
-   organization: self
+   fullname: Dean H. Saxe
+   organization: Full Frontal Nerdity Industries
    email: dean@thesax.es
 
 normative:
