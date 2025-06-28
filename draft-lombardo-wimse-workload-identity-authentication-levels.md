@@ -28,7 +28,7 @@ author:
     nickname: Jeff
     organization: AWS
     email: jeffsec@amazon.com
- - 
+ -
    fullname: Marcel Levy
    organization: SPRL
    email: marcel@sprl.com
