@@ -2,10 +2,10 @@
 
 This is the working area for the individual Internet-Draft, "draft-lombardo-wimse-workload-identity-authentication-levels".
 
-* [Editor's Copy](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/#go.draft-lombardo-wimse-workload-identity-authentication-levels.html)
+* [Editor's Copy](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/draft-lombardo-wimse-workload-identity-authentication-levels.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-lombardo-wimse-workload-identity-authentication-levels)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-lombardo-wimse-workload-identity-authentication-levels)
-* [Compare Editor's Copy to Individual Draft](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/#go.draft-lombardo-wimse-workload-identity-authentication-levels.diff)
+* [Compare Editor's Copy to Individual Draft](https://identitymonk.github.io/draft-lombardo-wimse-workload-identity-authentication-levels/draft-lombardo-wimse-workload-identity-authentication-levels.diff)
 
 
 ## Contributing
