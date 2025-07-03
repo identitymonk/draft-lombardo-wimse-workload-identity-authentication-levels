@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-01T01:23:20.695516+00:00",
+  "timestamp": "2025-07-03T01:15:27.842985+00:00",
   "repo": "identitymonk/draft-lombardo-wimse-workload-identity-authentication-levels",
   "labels": [
     {
@@ -103,6 +103,34 @@
       "mergedBy": "identitymonk",
       "mergeCommit": {
         "oid": "20e801cccebd7a689fa66489bd5d395c0a300d2e"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOO44tz86czxNo",
+      "title": "Initial pass for MIALs",
+      "url": "https://github.com/identitymonk/draft-lombardo-wimse-workload-identity-authentication-levels/pull/3",
+      "state": "MERGED",
+      "author": "heymarcel",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "* Added five-level scheme for identity assurance levels\r\n* Addressed hardware security in Security Considerations\r\n* Corrected minor typos",
+      "createdAt": "2025-07-01T04:28:20Z",
+      "updatedAt": "2025-07-01T22:53:01Z",
+      "baseRepository": "identitymonk/draft-lombardo-wimse-workload-identity-authentication-levels",
+      "baseRefName": "main",
+      "baseRefOid": "20e801cccebd7a689fa66489bd5d395c0a300d2e",
+      "headRepository": "identitymonk/draft-lombardo-wimse-workload-identity-authentication-levels",
+      "headRefName": "heymarcel-mial",
+      "headRefOid": "2269a8f52c29eb354d2d71b30bebf5275b4a6a4c",
+      "closedAt": "2025-07-01T22:53:01Z",
+      "mergedAt": "2025-07-01T22:53:01Z",
+      "mergedBy": "identitymonk",
+      "mergeCommit": {
+        "oid": "74df62a298e0a319117b83b423fdded3c7b543dd"
       },
       "comments": [],
       "reviews": []
